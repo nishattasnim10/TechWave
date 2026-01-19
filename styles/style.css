@@ -83,35 +83,8 @@ nav .menu a{
 .hamburger-icon {
     display: none;
 }
-/*-----responsive navbar-----*/
-@media screen and (max-width:576px) {
-    #nav-logo{
-        margin-left: 20px;
-        font-size: 20px;
-        font-weight: 800;      
-    }
 
-    .nav{
-    display: flex;
-    align-items: center;
-    padding-top: 0px;
-    height: 60px;
-    
-    border-bottom: 1px solid rgb(60, 63, 94) ;  
-}
-.menu {
-        display: none; 
-    }
-     
-.hamburger-icon {
-        display: block !important;
-        cursor: pointer;
-        color: white;
-        font-size: 24px;
-        margin-right: 20px;
-    }
-    
-}
+
 /*-------Banner------*/
 #banner{
     background-image: url("../assets/hero-bg.png");
@@ -131,6 +104,23 @@ nav .menu a{
     margin-top: 0px;
     
 }
+.new-badge {
+    position: absolute;
+    top: 0;
+    right: 25;
+    margin-left:200px;
+    background-color: #00FF88;
+    box-shadow: 0 4px 15px rgba(0, 255, 136, 0.4);  
+    color: #1A0B2E;
+    
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 18px;
+    z-index: 10; 
+    
+}
+
 #banner-img2 {
     position: absolute;
     top: 89px; 
@@ -186,4 +176,34 @@ nav .menu a{
     gap:8px;
     display: inline-flex;
     align-items: center;
+}
+
+/*-----responsive navbar-----*/
+@media screen and (max-width:576px) {
+    #nav-logo{
+        margin-left: 20px;
+        font-size: 20px;
+        font-weight: 800;      
+    }
+
+    .nav{
+    display: flex;
+    align-items: center;
+    padding-top: 0px;
+    height: 60px;
+    
+    border-bottom: 1px solid rgb(60, 63, 94) ;  
+        }
+.menu {
+        display: none; 
+    }
+     
+.hamburger-icon {
+        display: block !important;
+        cursor: pointer;
+        color: white;
+        font-size: 24px;
+        margin-right: 20px;
+    }
+    
 }
