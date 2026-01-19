@@ -26,7 +26,7 @@ body{
 }
 .nav h1{
     background-color: #1A0B2E;
-    margin-left: 200px;
+    /*margin-left: 200px;*/
     color: white;
 }
 #wave{
@@ -51,6 +51,7 @@ body{
 #nav-logo{
     font-size: 45px;
     font-weight: 800;
+    margin-left: 200px;
 }
 nav .menu{
     display: flex;
@@ -62,7 +63,7 @@ nav .menu{
 nav .menu a{
     text-decoration: none;
     font-size: 16px;
-    font-weight: 400px;
+    font-weight: 400;
     color: white;
 }
 
@@ -71,6 +72,7 @@ nav .menu a{
      rgba(247, 233, 63, 1),
      rgba(251, 9, 180, 1),
      rgba(145, 0, 248, 1));
+
     padding: 12px 16px;
     border-radius: 100px;
     margin-left: 314px;
@@ -78,4 +80,110 @@ nav .menu a{
     font-weight: 600;
     gap:4px;
 }
+.hamburger-icon {
+    display: none;
+}
+/*-----responsive navbar-----*/
+@media screen and (max-width:576px) {
+    #nav-logo{
+        margin-left: 20px;
+        font-size: 20px;
+        font-weight: 800;      
+    }
 
+    .nav{
+    display: flex;
+    align-items: center;
+    padding-top: 0px;
+    height: 60px;
+    
+    border-bottom: 1px solid rgb(60, 63, 94) ;  
+}
+.menu {
+        display: none; 
+    }
+     
+.hamburger-icon {
+        display: block !important;
+        cursor: pointer;
+        color: white;
+        font-size: 24px;
+        margin-right: 20px;
+    }
+    
+}
+/*-------Banner------*/
+#banner{
+    background-image: url("../assets/hero-bg.png");
+    margin-top: 0px;  
+    height: 760px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#banner-content {
+    position: relative; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0px;
+    
+}
+#banner-img2 {
+    position: absolute;
+    top: 89px; 
+    left: 50%;
+    transform: translateX(-50%); 
+}
+.banner-txt{
+    margin-top: 40px;
+}
+
+.banner-txt h1{
+    font-size: 60px;
+    font-weight: 1500;
+    color: white;
+
+}
+.banner-txt p{
+    font-size: 16px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 1);
+    padding: 8px 24px ;
+}
+
+.banner-buttons{
+    display: flex;
+    gap: 8px;
+}
+.btn-1{
+    background: linear-gradient( 30deg,
+     rgba(247, 233, 63, 1),
+     rgba(251, 9, 180, 1),
+     rgba(145, 0, 248, 1));
+
+    color: aliceblue;
+     padding: 12px 20px;
+    border-radius: 100px;
+    font-size: 16px;
+    font-weight: 600;
+    gap:8px;
+    display: inline-flex;
+    align-items: center;
+    margin-top: 14px;
+    
+}
+.btn-2{
+     background-color: #1A0B2E;
+     color: #00FF88;
+     border: 2px solid #00FF88;
+     padding: 12px 20px;
+    border-radius: 100px;
+    font-size: 16px;
+    font-weight: 600;
+    gap:8px;
+    display: inline-flex;
+    align-items: center;
+}
