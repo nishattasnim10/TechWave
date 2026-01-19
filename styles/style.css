@@ -180,7 +180,7 @@ nav .menu a{
 
 /*-----About section------*/
 #about{
-    height: 646px;
+    height:646px;
     background: #1A0B2E;  
 }
 #about-txt{
@@ -251,7 +251,91 @@ nav .menu a{
 
 }
 
+/*-----Choose section----*/
 
+#choose{
+    height: 1121px;
+    margin-top: 0px;
+    background: #230E3D;
+    display: flow-root;
+    
+}
+
+.choose-heading{
+width: 1200px;
+height: 58px;
+margin-left:200px;
+margin-top: 120px;
+text-align: center;
+background: #230E3D;
+
+}
+.choose-heading h1{
+    
+font-size: 48px;
+font-weight: 1000;
+color: #ffffff;
+
+}
+
+.box-grid{
+    width: 1200px;
+    height: 783px;
+    margin-top: 40px;
+    margin-left: 200px;
+    background: #230E3D;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 30px;    
+}
+
+
+.box-grid > div {
+    background:  rgb(53, 16, 99,.3); 
+    border-radius: 24px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+#choose-box1 {
+    grid-row: span 2; 
+}
+
+#choose-box2, #choose-box3 {
+    grid-column: span 2; 
+    
+}
+
+#choose-box4 {
+    grid-column: span 2;
+}
+
+
+.box-grid img {
+    width: 45px;
+    margin-bottom: 20px;
+}
+
+#choose-box2 img, #choose-box3 img {
+    margin-bottom: 0;
+}
+
+.box-grid h1 {
+    font-size: 24px;
+    padding-top: 16px;
+    color: #ffffff;
+}
+
+.box-grid p {
+    font-size: 16px;
+    line-height: 1.6;
+    padding-top: 16px;
+    color: rgba(255, 255, 255, 0.7);
+}
 
 
 
