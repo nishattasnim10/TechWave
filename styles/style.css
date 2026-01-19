@@ -106,9 +106,8 @@ nav .menu a{
 }
 .new-badge {
     position: absolute;
-    top: 0;
-    right: 25;
-    margin-left:200px;
+    top: 20px;
+    margin-left: 240px;
     background-color: #00FF88;
     box-shadow: 0 4px 15px rgba(0, 255, 136, 0.4);  
     color: #1A0B2E;
