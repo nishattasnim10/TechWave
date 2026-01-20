@@ -160,6 +160,38 @@ nav .menu a{
     margin-top: 14px;
     
 }
+
+
+@keyframes pulse-animation {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05); 
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+.btn-1 {
+    animation: pulse-animation 2s infinite ease-in-out; 
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+
+.btn-1:hover {
+    animation-play-state: paused; 
+    box-shadow: 0 0 20px rgba(251, 9, 180, 0.6);
+    background: linear-gradient(30deg, #ff8e5e, #ff1f8e, #9d26d1); 
+}
+
+
+
 .btn-2{
      background-color: #1A0B2E;
      color: #00FF88;
