@@ -342,49 +342,99 @@ color: #ffffff;
 
 
 
-/*-----responsive navbar-----*/
-@media screen and (max-width:576px) {
-    #nav-logo{
-        margin-left: 20px;
-        font-size: 20px;
-        font-weight: 800;      
-    }
 
-    .nav{
-    display: flex;
-    align-items: center;
-    padding-top: 0px;
-    height: 60px;
-    
-    border-bottom: 1px solid rgb(60, 63, 94) ;  
-        }
-.menu {
-        display: none; 
-    }
-     
-.hamburger-icon {
-        display: block !important;
-        cursor: pointer;
-        color: white;
-        font-size: 24px;
-        margin-right: 20px;
-    }
-    
-}
 /*------featured section-----*/
 #featured{
     height: 1276px;
-    border: 2px solid red;
-
 }
 .featured-epi{
     width: 1200px;
     height:538px ;
     margin-top: 120px;
     margin-left: 200px;
-    border: 2px solid red;
 
 }
+  
+.featured-epi{
+    
+    width: 1200px;
+    height: 538px;
+    background:#1A0B2E
+    
+}
+
+.featured-epi h1{
+    margin-left: 400px;
+    font-size:48px ;
+    font-weight: 800;
+    color: white;
+
+}
+
+.epi-boxes{
+    display: flex;
+    margin-top: 40px;
+    height: 440px;
+    width: 1200px; 
+}
+
+
+
+.epi-box1 img,.epi-box2 img,.epi-box3 img{
+    width: 380px;
+    height: 214px;
+    border-radius: 20px;
+    
+  
+}
+
+.epi-box1, .epi-box2, .epi-box3{
+    border-radius: 40px;
+    background: rgba(53, 17, 101, 0.4);
+    color: #ffffff;
+    
+    
+    
+}
+
+.epi-box1 h3, .epi-box2 h3,.epi-box3 h3{
+    
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 24px;
+    margin-left: 24px;
+    
+
+}
+
+.epi-box1 p, .epi-box2 p,.epi-box3 p{
+    
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 12px;
+    margin-left: 24px;
+}
+
+.clock{
+    margin-top: 400px;
+    display: inline-flex;
+    margin-left: 0%;
+    gap:5px;
+}
+.clock span{
+    color:#00FF88;
+     display: inline-flex;
+    
+}
+.clock img{
+    height: 15px;
+    width: 15px;
+}
+
+
+
+
+
 /*---------Host part----------*/
 
 .host{
@@ -418,7 +468,7 @@ color: #ffffff;
 }
 
 .info h3{
-    font-size: 32px;
+    font-size: 40px;
     font-weight: bold;
     margin-top: 49px;
     margin-bottom: 16px;
@@ -445,6 +495,7 @@ footer {
     text-align: center;
     position: relative;
     overflow: hidden;
+
 }
 
 .footer-logo {
@@ -501,3 +552,43 @@ footer {
     display: inline-block;
 }
 
+
+
+/*-----------------------------
+-------------------------------
+--------------------------------
+*/
+
+
+
+
+
+/*-----responsive navbar-----*/
+@media screen and (max-width:576px) {
+    #nav-logo{
+        margin-left: 20px;
+        font-size: 20px;
+        font-weight: 800;      
+    }
+
+    .nav{
+    display: flex;
+    align-items: center;
+    padding-top: 0px;
+    height: 60px;
+    
+    border-bottom: 1px solid rgb(60, 63, 94) ;  
+        }
+.menu {
+        display: none; 
+    }
+     
+.hamburger-icon {
+        display: block !important;
+        cursor: pointer;
+        color: white;
+        font-size: 24px;
+        margin-right: 20px;
+    }
+    
+}
