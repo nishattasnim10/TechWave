@@ -371,3 +371,133 @@ color: #ffffff;
     }
     
 }
+/*------featured section-----*/
+#featured{
+    height: 1276px;
+    border: 2px solid red;
+
+}
+.featured-epi{
+    width: 1200px;
+    height:538px ;
+    margin-top: 120px;
+    margin-left: 200px;
+    border: 2px solid red;
+
+}
+/*---------Host part----------*/
+
+.host{
+    margin-top:120px ;
+    margin-left: 200px;
+    width: 1200px;
+    height: 378px;
+    
+}
+#meet-host{
+    width: 1200px;
+    height:58px ;
+    text-align: center;
+    color: #ffffff;  
+}
+.host-info{
+    width: 1200px;
+    height:280px ;
+    margin-top: 40px;
+    background:  rgba(53, 17, 101, 0.4);
+    border-radius: 40px;
+    display: flex;
+    gap: 24px;
+    color: #ffffff;
+}
+.host-img{
+    height:200px ;
+    width: 200px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.info h3{
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 49px;
+    margin-bottom: 16px;
+}
+
+.host-socials{
+    display: flex;
+    flex-direction: row;
+    margin-top: 16px;
+    gap: 7px;
+
+}
+.host-socials img{
+    height: 25px;
+    width: 25px;
+    border: 1px solid rgb(185, 182, 182);
+    border-radius: 50%;
+}
+
+/*-------------footer-------------*/
+footer {
+    background:url("../assets/footer-bg.png");
+    padding: 80px 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.footer-logo {
+    font-size: 64px;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 32px;
+}
+#footer-wave{
+    background: linear-gradient(to bottom, 
+        
+        #9d26d1 38% ,   
+        #ff1f8e 60%,  
+        #ff8e5e  81% 
+    );
+    
+    -webkit-background-clip: text; 
+    background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    
+}
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    
+}
+
+.footer-links a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 500;
+   
+}
+
+.footer-links a:hover {
+    color: #ff1f8e; 
+}
+
+.footer-links img {
+    width: 20px; 
+    height: auto;
+}
+
+
+.copyright {
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 14px;
+    padding-top: 32px;
+    display: inline-block;
+}
+
